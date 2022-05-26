@@ -16,3 +16,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('dashboard');
 });
+
+Route::get('/kriteria', function () {
+    return view('kriteria');
+});
+
+Route::get('/kriteria2', function () {
+    return view('kriteria2');
+});
+
+Route::get('/hasil', function () {
+    return view('hasil');
+});

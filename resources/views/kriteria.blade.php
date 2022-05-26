@@ -13,7 +13,7 @@
                         <img class="animation__shake" src="dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
                     </div> -->
                     <li class="nav-item d-none d-sm-inline-block">
-                        <a href="#" class="nav-link">Home</a>
+                        <a href="/" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item d-none d-sm-inline-block">
                         <a href="#" class="nav-link">About</a>
@@ -21,7 +21,7 @@
                 </ul>
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Restart
+                        <a class="nav-link" href="/kriteria">Restart
                             <i class="fa-solid fa-rotate-left"></i>
                         </a>
                     </li>
@@ -48,21 +48,66 @@
 
 @section('main-content')
 <div class=" content-wrapper">
-<section class="content-header">
 <div class=" container-fluid">
-<div class="row mb-2">
-<div class="col-sm-12">
-<center>
-<h1 class="text-success" align="center" style="font-family:Roboto; font-weight: bold; ">BINGUNG PILIH MOBIL KARENA KEBANYAKAN PILIHAN?</h1>
-<h1 class="text-success" align="center" style="font-family:Roboto; font-weight: bold; ">SINI B-MO BANTUIN!</h1>
-<a href="/kriteria"><button type="button" class="btn btn-success ">MULAI</button></a>
-</center>
+<section class="content-header">
+<div class="card card-primary">
+<div class="card-header">
+<h3 class="card-title">Pilih Kriteria Kendaraan</h3>
 </div>
+
+
+<form>
+<div class="card-body">
+
+    <div class="form-group">
+    <label>Jumlah Penumpang</label>
+    <select class="form-control" >
+    <option>...</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+    <option>6</option>
+    <option>7</option>
+    <option>8</option>
+    </select>
+    </div>
+
+    <div class="form-group">
+    <label>Jenis Mobil</label>
+    <select class="form-control" >
+    <option>...</option>
+    <option>Hatchback</option>
+    <option>SUV</option>
+    <option>Sedan</option>
+    <option>MPV</option>
+    <option>6</option>
+    <option>7</option>
+    <option>8</option>
+    </select>
+    </div>
+
+    <div class="form-group">
+    <label>Bahan Bakar</label>
+    <select class="form-control" >
+    <option>...</option>
+    <option>Bensin</option>
+    <option>Solar</option>
+    <option>Listrik</option>
+    <option>Hybrid</option>
+    </select>
+    </div>
+
+<center>
+    <a href="/kriteria2">
+        <button type="button" class="btn btn-success ">NEXT</button>
+    </a>
+</center>
+
 </div>
 </div>
 </section>
-</div> 
-
+</div>
 
 @endsection
 

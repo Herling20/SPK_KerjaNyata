@@ -5,6 +5,12 @@
                 <meta name="viewport" content="width=device-width, initial-scale=1">
                 <title>SPK</title>
 
+                <style>
+                    body {
+                      background-color: #729900;
+                        }
+                </style>
+
                 <!-- Google Font: Source Sans Pro -->
                 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
                 <!-- Font Awesome -->
@@ -27,7 +33,7 @@
                 <!-- Theme style -->
                 <link rel="stylesheet" href="{{asset('style/dist/css/adminlte.min.css')}}">
             </head>
-            <body class="hold-transition layout-top-nav">
+            <body  class="hold-transition layout-top-nav">
 
             <!-- Site wrapper -->
             <div class="wrapper">
@@ -40,10 +46,10 @@
                     </section> -->
 
                 <!-- Main content -->
-                <!-- <section class="content">
+                <section class="content">
                     @yield('main-content')
-                </section> -->
-                    <!-- /.content -->
+                </section>
+                    <!-- /.content
                 </div>
                 <!-- /.content-wrapper -->
                 @yield('alert-logout')
@@ -54,6 +60,8 @@
                 @yield('tambahPenerima')
 
                 <footer class="main-footer">
+                    <div class="float-right d-none d-sm-block">
+                    </div>
                     <strong>Copyright &copy; 2022.</strong>
                 </footer>
             </div>
@@ -90,6 +98,8 @@
             <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 
             <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+            <script src="https://kit.fontawesome.com/bf14dc002a.js" crossorigin="anonymous"></script>
 
             <script>
                 $(function () {
