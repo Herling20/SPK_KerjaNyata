@@ -53,10 +53,46 @@
 <div class="row mb-2">
 <div class="col-sm-12">
 <center>
-<h1 class="text-success" align="center" style="font-family:Roboto; font-weight: bold; ">BINGUNG PILIH MOBIL KARENA KEBANYAKAN PILIHAN?</h1>
+<h1 class="text-success" align="center" style="font-family:Roboto; font-weight: bold; ">BINGUNG MAU BELI MOBIL HONDA DI YOGYAKARTA</h1>
 <h1 class="text-success" align="center" style="font-family:Roboto; font-weight: bold; ">SINI B-MO BANTUIN!</h1>
-<a href="/kriteria"><button type="button" class="btn btn-success ">MULAI</button></a>
+
 </center>
+
+<form>
+<div class="card-body">
+
+
+    <div class="form-group">
+    <label>Jenis Mobil</label>
+    <select class="form-control" >
+    <option>...</option>
+    <option>Hatchback</option>
+    <option>SUV</option>
+    <option>Sedan</option>
+    <option>MPV</option>
+    <option>City Car</option>
+    </select>
+    </div>
+
+    <div class="form-group">
+    <label>Bahan Bakar</label>
+    <select class="form-control" >
+    <option>...</option>
+    <option>Bensin</option>
+    <option>Solar</option>
+    <option>Listrik</option>
+    <option>Hybrid</option>
+    </select>
+    </div>
+
+<center>
+    <a href="/hasil">
+        <button type="button" class="btn btn-success ">NEXT</button>
+    </a>
+</center>
+
+
+
 </div>
 </div>
 </div>
